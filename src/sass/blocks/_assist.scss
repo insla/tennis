@@ -1,0 +1,31 @@
+.assist {
+    margin-top: 150px;
+    &__wrapper {
+        display: flex;
+        align-items:center;
+        justify-content: flex-end;
+        margin-top: 75px;
+    }
+    &__item {
+        
+        width: calc(100%/3);
+        height: 400px;
+        p{
+            position: relative;
+            text-align: center;
+            top: -50%;
+            color:#fff;
+            font-size: 27px;
+            font-weight: 700;
+        }
+        &_mg{
+            margin: 0 10px;
+        }
+    }
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
