@@ -1,10 +1,9 @@
-@import '../lips/fonts';
+@import '../libs/fonts';
+@import '../libs/slick';
+@import '../libs/reset';
 
 * {
     font-family: 'Gilroy', sans-serif;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 .container{
@@ -12,13 +11,17 @@
     margin: 0 auto;
 }
 
-@import '../blocks/header';
-@import '../blocks/main';
-@import '../blocks/courts';
-@import '../blocks/club';
-@import '../blocks/assist';
-@import '../blocks/icons';
-@import '../blocks/title';
-@import '../blocks/coach';
+@import '../variables/icons';
+@import '../variables/title';
+@import '../blocks/header-another-pages';
+@import '../variables/icons';
+@import '../variables/title';
 @import '../blocks/menu';
 @import '../blocks/footer';
+@import '../blocks/navigation-another-pages';
+@import '../blocks/index/navigation';
+@import '../blocks/index/coach';
+@import '../blocks/index/header';
+@import '../blocks/index/courts';
+@import '../blocks/index/club';
+@import '../blocks/index/assist';
