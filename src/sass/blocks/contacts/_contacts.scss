@@ -116,12 +116,12 @@
             padding: 0 10px;
             width: 400px;
             height: 40px;
-            font-size: 16px;
             background:#eef7dbab;
             border-radius: 10px;
             border: none;
             outline:none;
             font-size: 18px;
+            box-shadow: 6px 9px 5px rgb(189 189 189);
         }
     }
     &__number {
@@ -130,12 +130,12 @@
             padding: 0 10px;
             width: 400px;
             height: 40px;
-            font-size: 16px;
             background:#eef7dbab;
             border-radius: 10px;
             border: none;
             outline:none;
             font-size: 18px;
+            box-shadow: 6px 9px 5px rgb(189 189 189);
         }
     }
     &__email {
@@ -144,12 +144,12 @@
             padding: 0 10px;
             width: 400px;
             height: 40px;
-            font-size: 16px;
             background:#eef7dbab;
             border-radius: 10px;
             border: none;
             outline:none;
             font-size: 18px;
+            box-shadow: 6px 9px 5px rgb(189 189 189);
         }
     }
     &__text {
@@ -160,13 +160,12 @@
             resize: none;
             margin-top: 15px;
             padding: 5px 10px;
-            font-size: 16px;
             background:#eef7dbab;
             border-radius: 10px;
             border: none;
             outline: none;
             font-size: 18px;
+            box-shadow: 6px 9px 5px rgb(189 189 189);
         }
     }
-    &__button {}
 }
