@@ -60,37 +60,6 @@
         font-size: 18px;
         font-weight: 500;
     }
-    // &__button {
-    //     border-radius: 4px;
-    //     background-color: #ffe4e4;
-    //     border: none;
-    //     color: rgb(0, 0, 0);
-    //     text-align: center;
-    //     font-size: 26px;
-    //     width: 200px;
-    //     height: 50px;
-    //     cursor: pointer;
-    //     margin: 40px 36px 0 36px;
-    //     box-shadow: 0 10px 20px 0 rgba(0, 0, 0,.7);
-    //     display: inline-block;
-    //     position: relative;
-    //     transition: 0.5s;
-    //     &::after{
-    //         content: '»';
-    //         position: absolute;
-    //         opacity: 0;  
-    //         top: 10px;
-    //         right: -20px;
-    //         transition: 0.5s;
-    //     }
-    //     &:hover {
-    //         padding-right: 40px;
-    //     }
-    //     &:hover:after {
-    //         opacity: 1;
-    //         right: 16px;
-    //     }
-    // }
     &__gradient-overlay {
         background-image: linear-gradient(rgba(0,0,0,0.00) 0%, rgba(0,0,0,.6) 21%);
         width: 100%;
