@@ -111,4 +111,33 @@
             color: #fff;
         }
     }
+    &__feedback {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 500px;
+        position: relative;
+        p {
+            font-size: 18px;
+            font-weight: 400;
+        }
+        input {
+            width: 300px;
+            padding: 16px 29px;
+            background: #ffe4e4;
+            border-radius: 36px;
+            border: 0;
+        }
+        button {
+            position: absolute;
+            right: 12px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgb(72, 93, 255);
+            border: 0;
+            cursor: pointer;
+            font-size: 18px;
+        }
+    }
 }

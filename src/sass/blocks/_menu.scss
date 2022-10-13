@@ -6,7 +6,7 @@
     justify-content: space-between;
     &__item {
         :hover {
-            box-shadow: inset 150px 0 0 0 #ffe4e4;
+            box-shadow: inset 300px 0 0 0 #ffe4e4;
             color: rgb(0, 0, 0);
         }
         a {
@@ -23,5 +23,39 @@
             padding: 0 .25rem;
             transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
         }
+    }
+    &__wrapper-li-dropdown {
+        background: rgb(33 33 33);
+        width: 320px;
+        height: 180px;
+        position: relative;
+        top: 40px;
+        padding: 1px 30px 40px;
+        border-radius: 5px;
+    }
+    &__item-drop-li {
+        position: relative;
+        &:hover .menu__dropdown {
+            visibility: visible;
+            transform: scale(108%);
+        }
+        &:hover .menu__item-dropdown, .menu__wrapper-li-dropdown{
+            box-shadow: none;
+        }
+    }
+    &__dropdown {
+        visibility: hidden;
+        position: absolute;
+        width: 150px;
+        left: -30px;
+        top: 22px;
+        height: 40px;
+        transition: all ease-in-out 0.3s;
+        &:hover {
+            box-shadow: none;
+        }
+    }
+    &__item-dropdown {
+        margin-top: 24px;
     }
 }
