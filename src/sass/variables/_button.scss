@@ -2,15 +2,15 @@
     border-radius: 4px;
     background-color: #ffe4e4;
     border: none;
-    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 26px;
     width: 200px;
     height: 50px;
     cursor: pointer;
-    margin: 40px 36px 0 36px;
     box-shadow: 7px 11px 15px rgb(0 0 0 / 20%);
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
     position: relative;
     transition: 0.5s;
     &::after{
@@ -27,5 +27,11 @@
     &:hover:after {
         opacity: 1;
         right: 16px;
+    }
+    &_small {
+        margin: 20px 0 0 0;
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
     }
 }

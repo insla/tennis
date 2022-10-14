@@ -1,12 +1,5 @@
 .benefit {
     margin-top: 150px;
-    button {
-        margin-top: 100px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    &__wrapper {}
-    &__items {}
     &__item {
         display: flex;
         align-items:flex-start;

@@ -1,7 +1,6 @@
 .header{
-    padding: 200px 0 ;
+    padding: 100px 0 ;
     margin-bottom: 100px;
-    height: 100vh;
     h1{
         max-width: 636px;
         height: 200px;
@@ -20,7 +19,7 @@
         margin-top: 50px;
         color: #fff;
         &:hover {
-            color: #ffe4e4;
+            color: #ffcfcf;
         }
     }
     &__link-play{
@@ -53,7 +52,7 @@
 }
 
 .header, .navigation{
-    background: url('../../img/main_page/main.png') center (center/cover) no-repeat;
+    background: url('../../img/main_page/main.jpeg') center (center/cover) no-repeat;
     background-size: 100%;
     background-attachment: fixed;
 }

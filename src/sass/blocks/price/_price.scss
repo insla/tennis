@@ -19,6 +19,10 @@
         padding: 5px 10px;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
+        border-color: rgba(0,0,0,.2392156863);
+        &:focus {
+            outline: none;
+        }
     }
     &__button {
         height: 50px;
@@ -32,6 +36,7 @@
         z-index: 5;
         background-color: #ffe4e4;
         transition: 0.5s;
+        border-color: rgba(0,0,0,.2392156863);
         cursor: pointer;
         &::after{
             content: '»';
@@ -113,63 +118,8 @@
     }
     &__line {
         width: 80%;
-        border: 1px solid #0000003d;
+        height: 1px;
+        background: rgba(0,0,0,.2392156863);
         margin: 20px auto;
     }
 }
-
-
-// .plan {
-// 	box-shadow: 7px 11px 15px rgb(0 0 0 / 20%);
-//     width: calc(100%/3);
-//     height: 550px;
-// 	border-radius: 4px;
-// 	margin: 20px 0;
-// 	padding-bottom: 25px;
-// 	text-align: center;
-// 	.head {
-// 		border-top-left-radius: 4px;
-// 		border-top-right-radius: 4px;
-// 		padding: 12px 16px;
-// 		background: rgb(0, 0, 0);
-// 		color: #fff;
-// 		// h1 {
-// 		// 	@extend %extend_1;
-// 		// }
-// 		// h2 {
-// 		// 	@extend %extend_1;
-// 		// }
-// 		// h3 {
-// 		// 	@extend %extend_1;
-// 		// }
-// 	}
-// 	.price {
-// 		border-top: 1px solid #0000003d;
-// 		margin: 0 auto 30px auto;
-// 		width: 80%;
-// 		h3 {
-// 			font-size: 82px;
-// 			vertical-align: top;
-// 			line-height: 1;
-// 			span {
-// 				font-size: 38px;
-// 				vertical-align: top;
-// 				position: relative;
-// 				margin: 6px 0 0 -7px;
-// 				display: inline-block;
-// 			}
-// 		}
-// 		h4 {
-// 			color: #0000003d;
-// 			font-size: 14px;
-// 		}
-// 	}
-// 	ul {
-// 		padding: 20px;
-// 		li {
-// 			margin-bottom: 15px;
-// 			font-size: 14px;
-// 			font-weight: 400;
-// 		}
-// 	}
-// }
