@@ -9,6 +9,7 @@
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 @import '../variables/icons';
@@ -36,3 +37,5 @@
 @import '../blocks/personal/personal';
 @import '../blocks/group/group';
 @import '../blocks/news/news';
+@import '../blocks/index/media-index';
+@import '../blocks/about/media-about';

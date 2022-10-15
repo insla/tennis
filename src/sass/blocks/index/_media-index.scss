@@ -1,0 +1,74 @@
+@media (max-width: 1199px) {
+    .container {
+        max-width: 850px;
+    }
+    .navigation {
+        &__item {
+            font-size: 22px;
+            line-height: 35px;
+        }
+        &__logo {
+            width: 100px;
+            height: 46px;
+        }
+        &__icon a {
+            width: 35px;
+            height: 35px;
+        }    
+    }
+    .menu {
+        width: 450px;
+        &__item a{
+            font-size: 15px;
+        }
+    }
+    .club {
+        &__img {
+            width: 350px;
+            height: 420px;
+            top: -50px;
+            left: 20px;
+        }
+        &__info {
+            width: 410px;
+            min-height: 600px;
+            padding: 43px 5px 20px 50px;
+        }
+    }
+    .courts {
+        &__item {
+            width: 240px;
+            height: 340px;
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+    .assist {
+        &__card {
+
+            p {
+                font-size: 23px;
+                margin: 0 10px;
+            }
+        }
+    }
+    .coach {
+        &__wrapper {
+            width: 250px;
+        }
+        &__img {
+            width: 250px;
+            height: 350px;
+        }
+    }
+
+    .footer {
+        &__wrapper {
+            grid-template-columns: 250px minmax(510px, auto) auto;
+        }
+        &__telegram {
+            right: 0;
+        }
+    }
+}
