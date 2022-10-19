@@ -1,6 +1,6 @@
-@media (max-width: 1199px) {
+@media (max-width: 1200px) {
     .container {
-        max-width: 850px;
+        max-width: 970px;
     }
     .navigation {
         &__item {
@@ -26,11 +26,11 @@
         &__img {
             width: 350px;
             height: 420px;
-            top: -50px;
+            top: 0px;
             left: 20px;
         }
         &__info {
-            width: 410px;
+            width: 500px;
             min-height: 600px;
             padding: 43px 5px 20px 50px;
         }
@@ -69,6 +69,279 @@
         }
         &__telegram {
             right: 0;
+        }
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+    .navigation {
+        &__logo {
+            width: 80px;
+            height: 37px;
+        }
+        &__icon a {
+            margin: 0 5px;
+        }    
+    }
+    .menu {
+        &__item a{
+            font-size: 13px;
+        }
+    }
+    .header {
+        padding: 50px 0;
+        h1 {
+            font-size: 38px;
+        }
+        &__link-youtube {
+            width: 236px;
+        }
+        &__link-play {
+            width: 50px;
+            height: 50px;
+        }
+    }
+    .club {
+        &__img {
+            width: 300px;
+            top: -60px;
+            left: 20px;
+        }
+        &__info {
+            width: 400px;
+        }
+    }
+    .courts {
+        &__item {
+            width: 220px;
+            height: 320px;
+        }
+    }
+    .assist {
+        &__card {
+            height: 300px;
+            &:hover {
+                .assist__title p {
+                    top: -92%;
+                }        
+            }
+        }
+    }  
+    .coach {
+        &__wrapper {
+            width: 220px;
+        }
+        &__img {
+            width: 220px;
+            height: 350px;
+        }
+        &__text {
+            width: 100%;
+        }
+    }
+    .footer {
+        &__wrapper {
+            grid-template-columns: 130px minmax(510px, auto) auto;
+            img {
+                margin-left: 0;
+            }
+        }
+        &__telegram {
+            right: 0;
+        }
+        &__social p {
+            font-size: 16px;
+        }
+        &__feedback {
+            width: 400px;
+            & p {
+                font-size: 14px;
+            }
+            & input {
+                width: 260px;
+                padding: 10px 29px;
+            }
+            & button {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        text-align: center;
+    }
+    .menu {
+        display: none;
+        width: 100vw;
+        height: 100vh;
+        background-color: blueviolet;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 40px 0;
+        &__item {
+            margin-top: 30px;
+            a {
+                font-size: 21px;
+            }
+        }
+        &__dropdown {
+            top: 45px;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: none;
+            visibility: hidden;
+            &::after {
+                position: relative;
+                height: 27px;
+                left: 44px;
+                top: -186px;
+            }
+        }
+        &__item-drop-li {
+            &:hover .menu__dropdown {
+                visibility: visible;
+                position: static;
+                transform: none;
+                display: block;
+                margin: 20px auto 0;
+            }
+        }
+    }
+    .navigation {
+        &__wrapper {
+            height: 70px;
+        }
+        &__icon {
+            display: none;
+        }
+        &__hamburger {
+            display: block;
+        }
+    }
+    .header {
+        margin-bottom: 0;
+        h1 {
+            font-size: 30px;
+            height: 140px;
+            max-width: 700px;
+        }
+        &__link-youtube {
+            width: 100%;
+            align-items:flex-start;
+            justify-content: center;
+        }
+        &__link-play {
+            width: 40px;
+            height: 40px;
+        }
+        &__link-text {
+            font-size: 14px;
+        }
+    }
+    .club {
+        margin-top: 60px;
+        &__info {
+            width: 100%;
+            min-height: 300px;
+            padding: 10px 18px 30px 18px;
+            h2 {
+                font-size: 28px;
+            }
+            p {
+                font-size: 12px;
+            }
+            h3 {
+                font-size: 16px;
+            }
+            ul {
+                list-style-type: none;
+                font-size: 12px;
+            }
+            li {
+                margin-top: 10px;
+            }
+        }
+        &__img {
+            display: none;
+        }
+    }
+    .courts {
+        margin-top: 50px;
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__item {
+            width: 300px;
+            margin-top: 30px;
+        }
+    }
+    .assist {
+        margin-top: 50px;
+        &__wrapper {
+            margin-top: 30px;
+            flex-direction: column;            
+        }
+        &__card {
+            width: 100%;
+
+        }
+    }
+    .coach {
+        margin-top: 50px;
+        &__slider {
+            margin-top: 30px;
+        }
+        .slick-dots {
+            bottom: -5%;
+        }
+    }
+    .footer {
+        padding: 40px 0 20px 0;
+        height: auto;
+        &__wrapper {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__info {
+            display: flex;
+            flex-direction: column;
+            margin-top: 15px;
+        }
+        &__telegram {
+            right: auto;
+            position: static;
+        }
+        &__social {
+            flex-wrap: wrap;
+            width: 300px;
+            row-gap: 15px;
+            p {
+                display: none;
+            }
+        }
+        &__navigation {
+            flex-direction: column;
+            row-gap: 15px;
+            margin-top: 15px;
+        }
+        &__feedback {
+            flex-direction: column;
+            row-gap: 10px;
+            width: 300px;
+            button {
+                right: 30px;
+                top: 32px;
+            }
+        }
+        &__line {
+            margin-top: 30px;
         }
     }
 }
