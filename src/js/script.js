@@ -1,5 +1,8 @@
 window.addEventListener('DOMContentLoaded', () => {
-    AOS.init();
+    AOS.init({
+        // disable: 'mobile'
+        disable: window.innerWidth < 500
+    });
 
     //slider about
     const slide = document.querySelectorAll('.slider__slide');

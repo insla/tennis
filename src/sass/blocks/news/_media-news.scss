@@ -1,0 +1,19 @@
+@media (max-width: 1200px) {
+    .news {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 992px) {
+    .news {
+        &__wrapper {
+            grid-template-columns: repeat(auto-fill,minmax(280px,340px));
+        }
+    }
+}
+@media (max-width: 767px) {
+    .header-another-pages_news, .navigation-another-pages_news {
+        background: url('../../img/news/news-main.jpg') 0px -110px no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+}

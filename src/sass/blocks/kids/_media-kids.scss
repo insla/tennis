@@ -1,0 +1,27 @@
+@media (max-width: 1200px) {
+    .kids {
+        margin-top: 50px;
+        img {
+            margin-top: 30px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .header-another-pages_kids, .navigation-another-pages_kids{
+        background: url('../../img/kids/kids-main.jpg') 0px -110px no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+    .kids {
+        ul {
+            text-align: left;
+            font-size: 13px;
+        }
+        p {
+            font-size: 13px;
+        }
+        h3 {
+            font-size: 22px;
+        }
+    }
+}

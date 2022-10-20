@@ -2,7 +2,7 @@
     padding: 100px 0;
     height: 545px;
     background-color: black;
-    margin-top: 15%;
+    margin-top: 12%;
     &__line {
         background-color: rgb(72, 93, 255);
         height: 2px;
@@ -15,7 +15,7 @@
     &__wrapper {
         margin-top: 90px;
         display: grid;
-        grid-template-columns: 600px minmax(510px, auto) auto;
+        grid-template-columns: 600px 535px auto;
         img{
             margin-left: 58px;
         }
@@ -46,7 +46,7 @@
     &__telegram {
         grid-column: 2 / 3;
         position: absolute;
-        right: 8px;
+        right: 19px;
         top: 35px;
     }
     &__social {
@@ -71,7 +71,7 @@
             border-radius: 50%;
             box-shadow: 0 0 14px 6px rgba(0, 0, 0, 0.10);
             position: relative;
-            margin: 0 15px; 
+            margin: 0 10px; 
             overflow: hidden;
             transition: transform 0.5s;
             

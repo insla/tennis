@@ -1,7 +1,4 @@
 @media (max-width: 1200px) {
-    .container {
-        max-width: 970px;
-    }
     .navigation-another-pages {
         &__item {
             font-size: 22px;
@@ -27,9 +24,6 @@
     }
 }
 @media (max-width: 992px) {
-    .container {
-        max-width: 750px;
-    }
     .navigation-another-pages {
         &__logo {
             width: 80px;
@@ -65,7 +59,75 @@
     }
 }
 @media (max-width: 767px) {
-    .container {
-        text-align: center;
+    .navigation-another-pages {
+        &__wrapper {
+            height: 70px;
+        }
+        &__icon {
+            display: none;
+        }
+        &__hamburger {
+            display: block;
+        }
+    }
+    .header-another-pages {
+        margin-bottom: 0;
+        h2 {
+            font-size: 30px;
+            max-width: 700px;
+        }
+    }
+    .header-another-pages_about, .navigation-another-pages_about{
+        background: url('../../img/about/about-main.jpg') 0px -110px no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+    .slider {
+        margin-top: 50px;
+        &__wrapper {
+            margin-top: 30px;
+        }
+        &__wrapper {
+            display: block;
+        }
+        &__slide {
+            height: 300px;
+            margin: 10px 0;
+            & h3 {
+                opacity: 1;
+                font-size: 20px;
+            }
+        }
+    }
+    .benefit {
+        margin-top: 50px;
+        &__wrapper {
+
+        }
+        &__item {
+            flex-direction: column;
+            &:nth-child(2) {
+                flex-direction: column-reverse;
+            }
+
+        }
+        &__description {
+            width: 100%;
+            margin-bottom: 15px;
+            p {
+                font-size: 20px;
+            }
+            h3 {
+                font-size: 22px;
+                margin-top: 0;
+            }
+        }
+        &__text {
+            font-size: 13px;
+        }
+        &__img {
+            width: 100%;
+            height: 330px;
+        }
     }
 }

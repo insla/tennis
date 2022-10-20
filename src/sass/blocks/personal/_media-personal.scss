@@ -1,0 +1,20 @@
+@media (max-width: 1200px) {
+    .personal {
+        margin-top: 50px;
+        img {
+            margin-top: 30px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .header-another-pages_personal, .navigation-another-pages_personal {
+        background: url('../../img/personal/personal-main.jpg') 0px -10px no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+    .personal {
+        p {
+            font-size: 13px;
+        }
+    }
+}

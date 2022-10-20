@@ -1,0 +1,27 @@
+@media (max-width: 1200px) {
+    .group {
+        margin-top: 50px;
+        img {
+            margin-top: 30px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .header-another-pages_group, .navigation-another-pages_group {
+        background: url('../../img/grpup/group-main.jpg') 0px -10px no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+    .group {
+        ul {
+            text-align: left;
+            font-size: 13px;
+        }
+        p {
+            font-size: 13px;
+        }
+        h3 {
+            font-size: 22px;
+        }
+    }
+}
