@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <nav class="navigation-another-pages">
+    <nav class="navigation-another-pages navigation-another-pages_contacts">
         <div class="container">
             <div class="navigation-another-pages__wrapper">
                 <a href="index.html" class="navigation-another-pages__logo"><img src="img/main_page/logo.png" alt="logo"></a>
@@ -44,7 +44,7 @@
         <div class="navigation-another-pages__line"></div>
     </nav>
 
-    <section class="header-another-pages">
+    <section class="header-another-pages header-another-pages_contacts">
         <div class="container">
             <h2 class="title title_another-pages">Контакты</h2>
         </div>
@@ -80,23 +80,51 @@
                 </div>
                 <form class="contacts__form" action="#">
                     <h3 class="contacts__subtitle">Введите контактные данные</h3>
-                    <div class="contacts__input contacts__input_mg">
-                        <input type="text" placeholder="Ваше имя" name="name" id="name" required>
-                        <span></span>
-                    </div>
-                    <div class="contacts__input">
-                        <input type="text" placeholder="Ваша фамилия" name="surname" id="surname" required>
-                        <span></span>
-                    </div>
-                    <div class="contacts__number">
-                        <input type="tel" placeholder="Ваш телефон" name="number" id="number" required>
-                    </div>
-                    <div class="contacts__email">
-                        <input type="email" placeholder="Ваша почта" name="email" id="email" required>
-                    </div>
-                    <div class="contacts__text">
-                        <textarea placeholder="Ваше сообщение" name="text" id="text" required></textarea>
-                    </div>
+                    <input 
+                        class="contacts__input contacts__input_mg" 
+                        type="text" 
+                        placeholder="Ваше имя" 
+                        name="name" 
+                        id="name" 
+                        required
+                    >
+
+                    <input 
+                        class="contacts__input" 
+                        type="text" 
+                        placeholder="Ваша фамилия" 
+                        name="surname" 
+                        id="surname" 
+                        required
+                    >
+
+                    <input 
+                        class="contacts__number" 
+                        type="tel" 
+                        placeholder="Ваш телефон" 
+                        name="number" 
+                        id="number" 
+                        required
+                    >
+
+                    <input 
+                        class="contacts__email" 
+                        type="email" 
+                        placeholder="Ваша почта" 
+                        name="email" 
+                        id="email" 
+                        required
+                    >
+
+                    <textarea 
+                        class="contacts__text" 
+                        placeholder="Ваше сообщение" 
+                        name="text" 
+                        id="text" 
+                        required
+                    ></textarea>
+
+
                     <button class="button">Отправить</button>
                 </form>
             </div>

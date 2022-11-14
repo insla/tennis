@@ -1,104 +1,52 @@
 @media (max-width: 1200px) {
     .price {
-        &__title-and-search {
-            margin-top: 50px;
-            flex-direction: column-reverse;
-            align-items: center;
-        }
-        &__title {
-            font-size: 22px;
-            margin-top: 50px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-        &__wrapper {
-            margin-top: 20px;
-            justify-content: space-around;
-        }
-    }
-}
-@media (max-width: 992px) {
-    .price {
-        &__title-and-search {
-            align-items: flex-start;
-        }
-        &__wrapper-for-search {
-            margin-top: 0;
-        }
-        &__wrapper {
-            justify-content: flex-start;
-        }
-        &__title {
-            left: auto;
-            transform: none;
-        }
-    }
-}
-@media (max-width: 767px) {
-    .header-another-pages_price, .navigation-another-pages_price {
-        background: url('../../img/price/price-main.jpg') 0px -110px no-repeat;
-        background-size: 100%;
-        background-attachment: fixed;
-    }
-    .price {
-        &__wrapper-for-search {
-            margin-right: auto;
-            width: 320px;
-            position: relative;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-        &__title-and-search {
-            align-items: center;
-        }
-        &__wrapper {
-            justify-content: center;
-            gap: 35px;
-        }
-        &__button {
-            height: 38px;
-            width: 104px;
-            font-size: 10px;
-            padding: 0px 5px;
-            &:hover {
-                font-size: 8px;
-            }
-        }
-        &__title {
-            font-size: 20px;
-            p {
-                font-size: 65px;
-            }
-        }
         &__plan {
-            min-height: 410px;
+            width: 280px;
             padding-bottom: 100px;
-            width: 300px;
-        }
-        &__head {
-            font-size: 26px;
-            h4 {
-                font-size: 19px;
-            }
-        }
-        &__symbol {
-            font-size: 18px;
-            bottom: 17px;
-        }
-        &__subtitle {
-            font-size: 18px;
-            margin-top: 20px;
+            min-height: 410px;
         }
         &__items {
-            margin-top: 30px;
             li {
-                font-size: 16px;
+                font-size: 20px;
             }
+        }
+        &__subtitle {
+            font-size: 20px;
         }
     }
     .button{
         &__price {
             bottom: 30px
+        }
+    }
+}
+@media (max-width: 992px) {
+    .header-another-pages_price, .navigation-another-pages_price {
+        background: url('../../../img/price/price-main.jpg') 0px -110px no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+}
+@media (max-width: 767px) {
+    .price {
+        &__plan {
+            width: 340px;
+        }
+        &__wrapper-for-search{
+            margin-top: 30px;
+        }
+        &__wrapper-for-search {
+            width: 320px;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            button {
+                margin-top: 15px;
+            }
+        }
+        &__wrapper {
+            justify-content: center;
+            gap: 35px;
         }
     }
 }
